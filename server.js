@@ -12,11 +12,11 @@ app.set('views', __dirname + '/views');
 app.use(express.static(path.join(__dirname,'public')));
 
 var items = [
-    "Sign In",
-    "How it Works",
+	"Sign In",
+	"How it Work",
 	"Intelligent App",
 	"Cities",
-    "Our clients"
+	"Our clients"
 ];
 
 app.get('/', function (req, res) {
